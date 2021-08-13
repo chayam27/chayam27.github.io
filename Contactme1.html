@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+        <title>Contact Chaya</title>
+    </head>
+    <style>
+        body {
+          background-color: rgb(141, 147, 233);
+            }
+        .p3 {
+            font-family: "Open Sans", serif;
+          }
+        h1 {
+          color: rgb(98, 0, 255);
+          margin-left: 40px;
+          font-family: "Merriweather",  serif;
+         }
+        .button {
+            background-color: #6f00ff; 
+            border: none;
+            color: rgb(198, 182, 243);
+            padding: 3px 4px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; 
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);       
+            }
+        img {
+            border: 10px solid rgb(89, 0, 255);
+            border-radius: 1px;
+            padding: 5px;
+            width: 150px;
+            }           
+        </style>
+<body>
+
+<h1>Chaya's Contact Page</h1>
+<img src="ChayaMacAnimoji.png" alt="Chaya with Laptop">
+
+<p class="p3">
+    My address is:  
+    <br> <br> 1600 Pennsylvania Avenue NW <br>Washington, D.C. 20500 U.S. <hr>
+    <br>My preferred method of contact is <i>letter by mail</i>. I am slow at replying to emails. 
+    <br><b>Do not expect a response on any social media platforms.</b> <br><br><hr>
+</p>
+
+<br><br>
+<div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Send me a Message!</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                 <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     <div class="modal-body">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="form-label"> Your Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2"> </label>
+              </div>
+            <button type="submit" class="btn btn-primary" onclick="location.href='Contactme1.html'">Submit</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<p class="p3"></p>
+<input class="button" onclick="location.href='chayawelcomepage.html'" value="Back to My Welcome Page!">
+</body>
+</html>
